@@ -6,8 +6,8 @@
   "type": "module",
   "scripts": {
     "start": "node server.js",
-    "dev": "node --watch 02_server.js",
-    "populate": "node 03_populate.js",
+    "dev": "node --watch server.js",
+    "populate": "node populate.js",
     "test": "node -e \"fetch('http://localhost:3000/health').then(r=>r.json()).then(console.log)\""
   },
   "dependencies": {
